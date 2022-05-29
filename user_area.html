@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Main Start-->
+    <div class="main">
+
+        <!-- Card Solicitação Start-->
+        <div class="card-solicitar">
+            <h1>Solicitar Coleta</h1>
+            <p>Preencha os dados abaixo</p>
+            
+            <!-- Formulario de Solicitação -->
+            <div class="form-solicitar">
+                
+                <!-- Colunas Start -->
+                <div class="row-solicitar">
+
+                    <!-- Coluna da Esquerda Start-->
+                    <div class="column left">
+                        <div class="textfield">
+                            <label for="diacoleta">Dia da Coleta</label>
+                            <input type="date" id="datesolicitar">
+                        </div>
+                        <div class="textfield">
+                            <label for="endbusca">Endereço de busca</label>
+                            <input type="text" placeholder="Local para a coleta" required>
+                        </div>
+                        <div class="textfield">
+                            <label for="material">Material</label>
+                            <select name="materiais" id="sel-materiais">
+                            <option value="Aluminio">Aluminio</option>
+                            <option value="Garrafa PET">Garrafa PET</option>
+                            <option value="ABS">ABS</option>
+                        </select>
+                        </div>
+                        <div class="textfield">
+                            <label for="KG">Quantidade em Kg</label>
+                            <input type="text" placeholder="Kg" maxlength="3" id="quantKg">
+                            <p>A quantidade minima para solicitar uma coleta é de 2.5Kg</p>
+                        </div>
+                    
+                        <a href="check_solicitation.html"><button class="btnSolicitar">Solicitar Coleta</button></a>
+                        <a href="#">Regras e Avisos</a>
+                    </div>
+                    <!-- Coluna da Esquerda Start -->
+
+                    <!-- Coluna da Direita Start-->
+                    <div class="column right">
+                        <div class="textfield right">
+                            <label for="valorestimado" class="labelValRight">Valor Estimado</label>
+                            <label for="valoresr" class="valorEst">R$[0]</label>
+                        </div>
+                    </div>
+                    <!-- Coluna Da Direita End -->
+
+                </div>
+                <!-- Coluna End -->
+
+            </div>
+            <!-- Formulario de Solicitação End -->
+
+        </div>
+        <!-- Card Solicitação End -->
+
+    </div>
+    <!-- Main End -->
+
+</body>
+</html>

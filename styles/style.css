@@ -1,0 +1,187 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*User Area - Start*/
+
+/* Main */
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #0D1117;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Card Solicitar */
+.card-solicitar{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #161B22;
+    box-shadow: 0 10px 40px #00000056;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.card-solicitar h1{
+    justify-content: center;
+    color: #29BB80;
+    font-weight: 700;
+    margin: 0;
+}
+
+.form-solicitar{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-solicitar p{
+    margin-bottom: 10px;
+}
+
+.form-solicitar a{
+    margin-top: 10px;
+    font-weight: 300;
+    color: #58A6FF;
+    text-decoration: none;
+}
+
+.form-solicitar a:hover{
+    color: black;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+}
+
+.textfield label{
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.textfield input{
+    width: 30%;
+     border: none;
+     border-radius: 10px;
+     padding: 15px;
+     background: #0D1117;
+     color: #fff;
+     font-size: 12pt;
+     box-shadow: 0 10px 40px #00000056;
+     outline: none;
+     box-sizing: border-box;
+     margin-bottom: 10px;
+}
+
+#quantKg{
+    width: 10%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.left{
+    width: 85%
+}
+
+.right{
+    width: 15%;
+}
+
+.textfield select{
+    width: 30%;
+     border: none;
+     border-radius: 10px;
+     padding: 15px;
+     background: #0D1117;
+     color: #fff;
+     font-size: 12pt;
+     box-shadow: 0 10px 40px #00000056;
+     outline: none;
+     box-sizing: border-box;
+     margin-bottom: 10px;
+}
+
+.labelValRight{
+    margin-top: 265px;
+}
+
+.btnSolicitar{
+    width: 30%;
+    padding: 16px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #0D1117;
+    background-color: #29BB80;
+    cursor: pointer;
+    box-shadow: 0 10px 40px -12px #00ff8080;
+}
+/*User Area - End*/
+
+/* Check Solicitation - Start */
+.container-solicitation{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.card-check-solicitation{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #161B22;
+    box-shadow: 0 10px 40px #00000056;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.card-check-solicitation h1{
+    display: inline;
+    color: #29BB80;
+}
+
+.statusAnalise{
+    color: #da801a;
+}
+/* Check Solicitation - End */
+
+/* User History - Start */
+.statusAceito{
+    color: #29BB80;
+}
+
+.statusRecusada{
+    color: red;
+}
+
+/* User History - End */
